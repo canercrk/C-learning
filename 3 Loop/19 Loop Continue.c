@@ -24,7 +24,7 @@ int main(){
 		
 		if(a % 2 == 1){
 			a++;
-			continue; //assagýya girmiyor ama hep i++ yapýyor.sonsuz donguye hapsoluyor while icine continue.
+			continue; //assagýya.so girmiyor ama hep i++ yapýyornsuz donguye hapsoluyor while icine continue.
 					  //i++ yý 	toplam2 = toplam2 + a; nýn altýn akoyarsan i artmaz cunku contine assagýdaki islemleri yapmýyordu
 		}
 		

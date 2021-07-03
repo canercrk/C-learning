@@ -7,21 +7,19 @@ struct araba{
 	int model;
 	float motor;
 	int beygir;
-	
-	
-}araba1,araba2;
+		
+} araba1,araba2;
 
 
 
 int main(){
 	/*
-	struct araba araba1 yapıyorduk nesne oluşturmak için onun yerine yukardaki
-	}x; nin arasına(x yerine) araba1 yazsakda oluyor (ilerde oluşturacaz anlamına geliyor)
-	normalde struct araba araba1 yazamn gerekirken yukardakini yaparsan
-	araba1 = {} demen yeterlidir
+	struct araba araba1 yaparız nesne oluşturmak için
+	}x; nin arasına(x yerine) araba1 yazarız(yazmasakta olur) (ilerde oluşturacaz anlamına geliyor)
+	struct araba araba1 yazamn gerekir
 	*/	
-	araba1 = {0}; //yazarsak hepsinin değerine 0 yazıyor 
-	
+	struct araba araba1 = {4, 6, 2011, 3.0, 300}; //struct araba araba1 = {0};	 yazarsak hepsinin değerine 0 yazıyor 
+	araba2 = araba1; // araba1 deki değerlerin hepsini arba2 ye attı
 	printf("%d %d %d %2.f %d",araba1.tekerleksayisi,araba1.vvitessayisi,araba1.model,araba1.motor,araba1.beygir);
 		
 	

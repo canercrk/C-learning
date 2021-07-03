@@ -37,9 +37,9 @@ biz bir tane nesne oluþturaracaz diyoruz mesala ahmet:
 	yapý | bizim oluþturduðumuz veri tipi  | deðiþken(nesne)
  */
  
-	struct student ahmet = {"Ahmet","Gedikli",135,23};
+	struct student caner = {"Caner","Crk",135,21};
 		
-		printf("%s %s %d %d",ahmet.isim,ahmet.soyisim,ahmet.numara,ahmet.yas);
+		printf("%s %s %d %d",caner.isim,caner.soyisim,caner.numara,caner.yas);
 		
 	//nesne içinde 4 tane deðiþken saklýyor ancak bizim bunalrý baþlatmamýz lazým ayný array mantýðý
 			
